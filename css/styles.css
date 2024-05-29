@@ -1,0 +1,253 @@
+/* EXTRA STYLES */
+@font-face {
+    font-family: majormonodisplay;
+    src: url(../assets/fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: customsans;
+    src: url(../assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Zeyada;
+    src: url(../assets/fonts/Zeyada/Zeyada-Regular.ttf)
+}
+
+@font-face {
+    font-family: Pridi;
+    src: url(../assets/fonts/Pridi/Pridi-Regular.ttf)
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(45px);
+    }
+}
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-45px);
+    }
+}
+
+/* RESUME STYLES */
+body {
+    background-color: white;
+    font-family: customsans;
+    /* background-color: rgb(19 78 74); */
+    color: #000080;
+}
+
+.landing-page-box {
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid;
+    border-image: linear-gradient(#8e9eab, #eef2f3) 25%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.major-mono-display {
+    font-family: majormonodisplay;
+}
+
+.landing-title-page img {
+    width: calc(100vw + 20px); /* Adjust the value according to your preference */
+    margin-top: -10px; /* needed if blur is not used */
+    margin-left: -10px; /* Half of the extra width added */
+    margin-right: -10px; /* Half of the extra width added */
+    display: block;
+    /* filter: blur(8px); */
+}
+
+.clear-floats {
+    display: flex;
+}
+
+.first-side {
+    width: 40%;
+    top: 0;
+    position: sticky;
+    /* border: 1px solid red; */
+    align-self: flex-start;
+    padding: 15px;
+}
+
+.student-name {
+    color: #0047AB;
+    font-size: 130px;
+    margin-bottom: 0px;
+}
+
+.hover-orange:hover {
+    color: orange;
+}
+
+.student-title {
+    color: #0047AB;
+    margin-top: 0px;
+}
+
+.student-title-span:hover {
+    text-decoration: underline;
+    text-decoration-color: #ce3171;
+    text-decoration-thickness: 3px;
+    transition: text-decoration 700ms ease-in-out;
+}
+
+.student-details {
+    color: #6495ED;
+}
+
+.personal-information ul li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.personal-information ul li a {
+    text-decoration: none;
+}
+
+.personal-information ul li a img{
+    width:  30px;
+    height: 30px;
+}
+
+.remove-bullets {
+    list-style: none;
+}
+
+.remove-bullets li {
+    list-style: none;
+}
+
+.second-side {
+    width: 60%;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.about-me {
+    text-align: justify;
+}
+
+.about-me-paragraph {
+    text-indent: 0.5in;
+}
+
+.resume-dividers {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.gradient-underline {
+    /* background-image: linear-gradient(90deg, #C6FFDD, #FBD786, #f7797d); */
+    background-image: linear-gradient(90deg, #FC466B, #3F5EFB);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.divider-titles {
+    display: inline;
+}
+
+.resume-dates-range {
+    display: inline;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: square;
+}
+
+.tech-stack {
+    padding: 0;
+    margin: 0;
+}
+
+.technical-profile-details {
+    margin: 0;
+}
+
+.technical-profile .skills-division {
+    font-weight: bold;
+}
+
+/* PROJECT STYLES */
+.project-banner {
+    text-align: center;
+    background: #0F52BA;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    font-size: 55px;
+    font-family: Pridi;
+    top: 0;
+    position: sticky;
+}
+
+.project-banner-text:hover {
+    animation: fade-down 2000ms;
+}
+
+.clear-floats-two {
+    display: flex;
+}
+
+.third-side {
+    width: 60%;
+    padding: 15px;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.gradient-underline-two {
+    background-image: linear-gradient(90deg, #C6FFDD, #FBD786, #f7797d);
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.project-details {
+    text-align: justify;
+}
+
+.fourth-side {
+    width: 40%;
+    padding: 15px;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.project-image:hover {
+    animation: fade-up 2000ms;
+}
+
+/* EXTRA STYLES */
+footer {
+    text-align: center;
+    font-family: Zeyada;
+    font-size: 30px;
+}
+
+/* SELECTION TEXT COLOUR = rgb(94 234 212) */
